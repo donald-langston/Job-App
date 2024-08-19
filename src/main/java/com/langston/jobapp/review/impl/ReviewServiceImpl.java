@@ -1,7 +1,10 @@
-package com.langston.jobapp.review;
+package com.langston.jobapp.review.impl;
 
 import com.langston.jobapp.company.Company;
 import com.langston.jobapp.company.CompanyService;
+import com.langston.jobapp.review.Review;
+import com.langston.jobapp.review.ReviewRepository;
+import com.langston.jobapp.review.ReviewService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.DeleteMapping;
